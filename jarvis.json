@@ -1,0 +1,202 @@
+[
+    {
+      "response_type": "greeting",
+      "user_input": ["hello", "hi", "hey"],
+      "bot_response": "Hey there! I am jarvis. How can I help you?",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["see you", "goodbye", "bye"],
+      "bot_response": "See you later!",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["nice", "to", "meet", "you"],
+      "bot_response": "The pleasure is all mine!",
+      "required_words": ["nice", "meet", "you"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+      "bot_response": "Start by typing: 'How to learn coding' on Google.",
+      "required_words": ["learn", "code"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["refund", "how", "can", "I", "get"],
+      "bot_response": "We don't offer refunds for free education.",
+      "required_words": ["refund", "i"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how", "are", "you"],
+      "bot_response": "I'm great! Thanks for asking.",
+      "required_words": ["how", "are", "you"]
+    },
+    {
+        "response_type": "question",
+        "user_input": ["what", "is", "your","name"],
+        "bot_response": "I'm Jarvis created by Tamilarasan",
+        "required_words": ["what", "your", "name"]
+      },
+      
+        {
+          "response_type": "question",
+          "user_input": ["what", "is", "your", "name"],
+          "bot_response": "I'm Jarvis, created by Tamilarasan.",
+          "required_words": ["what", "your", "name"]
+        },
+        {
+          "response_type": "question",
+          "user_input": ["how", "old", "are", "you"],
+          "bot_response": "I'm an AI language model, so I don't have an age.",
+          "required_words": ["how", "old", "you"]
+        },
+        {
+          "response_type": "question",
+          "user_input": ["where", "are", "you", "from"],
+          "bot_response": "I don't have a physical location. I exist in the digital realm.",
+          "required_words": ["where", "you", "from"]
+        },
+        {
+          "response_type": "question",
+          "user_input": ["what", "is", "your", "favorite", "color"],
+          "bot_response": "As an AI, I don't have personal preferences, including favorite colors.",
+          "required_words": ["what", "your", "favorite", "color"]
+        },
+        {
+          "response_type": "question",
+          "user_input": ["can", "you", "tell", "me", "a", "joke"],
+          "bot_response": "Why don't scientists trust atoms? Because they make up everything!",
+          "required_words": ["can", "you", "tell", "me", "a", "joke"]
+        },
+        {
+          "response_type": "question",
+          "user_input": ["what", "is", "the", "capital", "of", "france"],
+          "bot_response": "The capital of France is Paris.",
+          "required_words": ["capital", "of", "france"]
+        },
+        {
+          "response_type": "question",
+          "user_input": ["how", "do", "you", "spell", "banana"],
+          "bot_response": "B-A-N-A-N-A",
+          "required_words": ["how", "do", "you", "spell", "banana"]
+        },
+        {
+          "response_type": "question",
+          "user_input": ["what", "is", "the", "meaning", "of", "life"],
+          "bot_response": "The meaning of life is subjective and can vary from person to person.",
+          "required_words": ["meaning", "of", "life"]
+        },
+        {
+          "response_type": "question",
+          "user_input": ["can", "you", "recommend", "a", "good", "book"],
+          "bot_response": "One highly recommended book is '1984' by George Orwell.",
+          "required_words": ["can", "you", "recommend", "good", "book"]
+        },
+        {
+          "response_type": "question",
+          "user_input": ["who", "is", "the", "current", "president", "of", "the", "united", "states"],
+          "bot_response": "As of my knowledge cutoff in September 2021, the current President of the United States is Joe Biden.",
+          "required_words": ["current", "president", "united", "states"]
+        },
+        {
+          "response_type": "question",
+          "user_input": ["what", "is", "the", "square", "root", "of", "144"],
+          "bot_response": "The square root of 144 is 12.",
+          "required_words": ["square", "root", "144"]
+        },
+        {
+          "response_type": "question",
+          "user_input": ["how", "do", "i", "bake", "a", "chocolate", "cake"],
+          "bot_response": "Here's a simple recipe for a chocolate cake: [recipe instructions].",
+          "required_words": ["how", "do", "bake", "chocolate", "cake"]
+        },
+        {
+          "response_type": "question",
+          "user_input": ["what", "is", "the", "largest", "planet", "in", "our", "solar", "system"],
+          "bot_response": "The largest planet in our solar system is Jupiter.",
+          "required_words": ["largest", "planet", "our", "solar", "system"]
+        },
+        {
+          "response_type": "question",
+          "user_input": ["can", "you", "play", "the", "piano"],
+          "bot_response": "I'm sorry, but as an AI language model, I don't have the capability to physically play musical instruments.",
+          "required_words": ["can", "you", "play", "piano"]
+        },
+        {
+          "response_type": "question",
+          "user_input": ["what", "is", "the", "tallest", "mountain", "in", "the", "world"],
+          "bot_response": "The tallest mountain in the world is Mount Everest.",
+          "required_words": ["tallest", "mountain", "world"]
+        },
+        {
+          "response_type": "question",
+          "user_input": ["how", "do", "i", "change", "a", "flat", "tire"],
+          "bot_response": "To change a flat tire, you'll need a spare tire, a jack, and some basic tools. Here are the general steps: [step-by-step instructions].",
+          "required_words": ["how", "do", "change", "flat", "tire"]
+        },
+        {
+          "response_type": "question",
+          "user_input": ["what", "is", "the", "formula", "for", "calculating", "the", "area", "of", "a", "circle"],
+          "bot_response": "The formula for calculating the area of a circle is A = πr², where A is the area and r is the radius of the circle.",
+          "required_words": ["formula", "calculating", "area", "circle"]
+        },
+        {
+          "response_type": "question",
+          "user_input": ["who", "painted", "the", "mona", "lisa"],
+          "bot_response": "The Mona Lisa was painted by Leonardo da Vinci.",
+          "required_words": ["painted", "mona", "lisa"]
+        },
+        {
+          "response_type": "question",
+          "user_input": ["what", "is", "the", "difference", "between", "weather", "and", "climate"],
+          "bot_response": "Weather refers to the short-term conditions of the atmosphere, such as temperature, humidity, and precipitation, while climate refers to the long-term average weather patterns of a region.",
+          "required_words": ["difference", "between", "weather", "climate"]
+        },
+        {
+          "response_type": "question",
+          "user_input": ["how", "do", "i", "say", "hello", "in", "spanish"],
+          "bot_response": "The word for 'hello' in Spanish is 'hola'.",
+          "required_words": ["say", "hello", "spanish"]
+        },
+        {
+          "response_type": "question",
+          "user_input": ["what", "is", "the", "capital", "of", "australia"],
+          "bot_response": "The capital of Australia is Canberra.",
+          "required_words": ["capital", "australia"]
+        },
+        {
+          "response_type": "question",
+          "user_input": ["how", "do", "i", "take", "a", "screenshot", "on", "a", "windows", "computer"],
+          "bot_response": "To take a screenshot on a Windows computer, you can press the 'PrtScn' (Print Screen) key on your keyboard to capture the entire screen. Alternatively, you can use the 'Alt + PrtScn' combination to capture the currently active window.",
+          "required_words": ["how", "do", "take", "screenshot", "windows", "computer"]
+        },
+        {
+          "response_type": "question",
+          "user_input": ["what", "is", "the", "largest", "ocean", "in", "the", "world"],
+          "bot_response": "The largest ocean in the world is the Pacific Ocean.",
+          "required_words": ["largest", "ocean", "world"]
+        },
+        {
+          "response_type": "question",
+          "user_input": ["can", "you", "recommend", "a", "good", "movie", "to", "watch"],
+          "bot_response": "One highly recommended movie is 'Inception' directed by Christopher Nolan.",
+          "required_words": ["recommend", "good", "movie", "watch"]
+        },
+        {
+          "response_type": "question",
+          "user_input": ["what", "is", "the", "formula", "for", "calculating", "the", "area", "of", "a", "rectangle"],
+          "bot_response": "The formula for calculating the area of a rectangle is A = length × width, where A is the area, length is the length of the rectangle, and width is the width of the rectangle.",
+          "required_words": ["formula", "calculating", "area", "rectangle"]
+        }
+        
+        
+        
+        
+        
+      
+      
+  ]
